@@ -1,0 +1,225 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.header1
+{
+    height: 40px;
+    background-color: #121212;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+.head1
+{
+    display: flex;
+    font-size: 12px;
+    padding: 10px 80px;
+    justify-content: center;
+    color: white;
+    letter-spacing: 2px;
+}
+.head1 i{
+    padding-left: 10px;
+    padding-top: 9px;
+    width: 10px;
+    
+}
+.header1 :hover{
+    background-color: rgb(44, 42, 42);
+}
+.header2{
+    display: flex;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    justify-content: left;
+    align-items: center;
+    height: 90px;
+    background-color: #121212;
+    padding: 0px 130px 10px 130px;
+    margin: 0px;
+    border: 0px;
+}
+.head2{
+    width: 50%;
+    justify-content: left;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 0px 0px;
+
+}
+.head2 img{
+    height: 25px;
+    width: 115px;
+}
+.head2 ul,a{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-decoration: none;
+    padding-left: 15px;
+}
+.head2 ul li{
+    padding-top: 5px;
+    padding-left: 20px;
+    color: antiquewhite;
+}
+.head2 ul li:hover{
+    color: white;
+    text-decoration: underline;
+}
+.icon1 {
+    color: white;
+    background-color: #121212;
+    height: 30px;
+    width: 50px;
+}
+.icon2 {
+    color: white;
+    background-color: #121212;
+    height: 60px;
+    width: 60px;
+}
+.head2-1{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: right;
+    align-content: center;
+}
+.head2-1 svg{
+    padding-left: 2px;
+}
+
+
+.body1{
+    height: 1120px;
+    width: 1214.8px;
+    padding-top: 30px;
+    padding-left: 150px;
+    padding-right: 70px;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 33.3% 33.3% 33.3%;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    padding: 0px;
+    grid-gap: 0px;
+    row-gap: 0px;
+    justify-content: space-around;
+    align-items: center;
+}
+.container img{
+    width: 362px;
+    height: 362px;
+    padding: 0px 0px 0px 0px;
+}
+.card1 .card2 .card3 .card4 .card5 .card6 .card7 .card8 .card9{
+    padding: auto;
+}
+.body2{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 45px 140px;
+
+}
+.img-founder{
+    width: 39%;
+    justify-content: space-around;
+}
+.img-founder img{
+    width: 390PX;
+    height: 525Px;
+}
+.founder-add{
+    width: 61%;
+    display: grid;
+    grid-template-rows: 50px 50px 50px;
+    padding-top: 90px;
+    padding-left: 0px;
+    row-gap: 10px;
+}
+.founder-add p{
+    font-size: 24px;
+}
+.button1{
+    width: 142px;
+    height: 51px;
+    background-color: #121212;
+    color: white;
+}
+.button1:hover{
+    width: 143px;
+    height: 52px;
+}
+.footer1{
+    padding: 50px 25px;
+    background-color: #121212;
+}
+.container1{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    row-gap: 10px;
+}
+.footer1-elements{
+
+}
+.footer1-list{
+    display: grid;
+    row-gap: 25px;
+    text-decoration: none;
+    list-style: none;
+    color: grey;
+}
+.footer1-list li{
+    text-align: center;
+}
+.footer1-list-design{
+    text-decoration: underline;
+}
+.footer1-list-design:hover{
+    color: white;
+}
+.footer1-icon3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+.icon3{
+    align-items: center;
+    width: 19px;
+    height: 19px;
+    color: white;
+}
+.footer2{
+    padding-top: 80px;
+    padding-bottom: 40px;
+    padding-left: 150px;
+    padding-right: 480px;
+    background-color: #121212;
+}
+.container2{
+
+}
+.footer2-list{
+    padding: 0px 5px 0px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 12px;
+    color: antiquewhite;
+}
+.footer2-list-design:hover{
+    text-decoration: underline;
+    color: white;
+}
